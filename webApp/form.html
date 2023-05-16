@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+	<style type="text/css">
+		*{
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<header><h2>Register Here</h2> </header>
+	</div>
+	<div>
+		<form action="" method="">
+			<label for="first-name">First Name</label>
+			<input type="text" name="first-name" placeholder="Michael" required>
+
+			<label for="first-name">Last Name</label>
+			<input type="text" name="last-name" placeholder="Surat" required>
+
+			<div>
+				<label for="gender-choice">Male</label>
+				<input type="radio" name="gender-choice" value="choice-1">
+
+				<label for="gender-choice">Female</label>
+				<input type="radio" name="gender-choice" value="choice-2">
+
+				<label for="gender-choice">Other</label>
+				<input type="radio" name="gender-choice" value="choice-3">
+			</div>
+			<div>
+				<label for="email">Email Address</label>
+				<input type="email" name="email" placeholder="xyz@gmail.com">
+				<label for="password">Password</label>
+				<input type="password" name="password">
+			</div>
+			<div>
+				<label name = "Month"> Birthday</label>
+				<select name="Month">
+					<option value="0" selected disabled>Month</option>
+					<option value="jan">January</option>
+					<option value="feb">February</option>
+					<option value="mar">March</option>
+					<option value="apr">April</option>
+					<option value="may">May</option>
+					<option value="jun">June</option>
+					<option value="jul">July</option>
+					<option value="aug">August</option>
+					<option value="sep">September</option>
+					<option value="oct">October</option>
+					<option value="nov">November</option>
+					<option value="dec">December</option>
+
+				</select>		
+			</div>
+			<div>
+				<label for = "agree">I agree to the conditions of the form: </label>
+				<input type="checkbox" name="agree">
+			</div>
+
+			<button type="submit">Submit</button>
+		</div>
+	</form>
+</div>
+<hr>
+<div>
+	<footer>
+		<H5>Follow Us</h5>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>YouTube</li>
+				<li>Instagram</li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
